@@ -1,5 +1,3 @@
-using System;
-
 namespace Register.Models
 {
     public class ErrorViewModel
