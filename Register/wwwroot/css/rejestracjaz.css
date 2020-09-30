@@ -1,0 +1,40 @@
+﻿body {
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    background: url(tlo.png)
+}
+.col-md-4 {
+    width: 450px;
+    height: 620px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0 0px 5px #0225bf;
+    border: 2px solid black;
+    padding: 20px 30px 20px 25px;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+}
+.wroc {
+    width: 50px;
+    height: 25px;
+    overflow-y: hidden;
+    background: #fff;
+    border: 2px solid black;
+    position: absolute;
+    left: 38%;
+    top: 82%;
+}
+.tytul {
+    width: 450px;
+    height: 100px;
+    overflow-y: auto;
+    background: #fff;
+    border: 2px solid black;
+    box-shadow: 0 0px 5px #0225bf;
+    padding: 20px 10px 10px 25px;
+    position: absolute;
+    left: 38%;
+
+}

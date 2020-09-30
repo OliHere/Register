@@ -1,0 +1,44 @@
+﻿body {
+    display: normal;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0;
+    background: url(tlo.png);
+}
+
+.table-box {
+    width: 1200px;
+    height: 800px;
+    overflow: auto;
+    background: #fff;
+    box-shadow: 0 10px 100px #000005;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: #990000;
+    color: #fff;
+}
+
+tr th:nth-child(1) {
+    width: 60px;
+    text-align: center;
+    background: #000000;
+}
+
+tr td:nth-child(1) {
+    background: #cc3300;
+    color: #fff;
+}
